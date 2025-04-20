@@ -42,7 +42,7 @@ Example:
 ## Run
 Ideally would like to have at least 16BG RAM and 4vCPUs
 ```bash
-spark-submit --driver-memory 8G --executor-memory 8G --conf spark.executor.cores=4 rdd_dijkstra.py
+spark-submit --driver-memory 8G --executor-memory 8G --conf spark.executor.cores=4 rddVersion.py
 ```
 
 ## Output
