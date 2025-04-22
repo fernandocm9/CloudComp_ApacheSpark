@@ -25,7 +25,7 @@ distances = sc.parallelize([(i, (0 if i == source_node else float('inf'), [])) f
 
 #update distances
 for i in range(num_nodes - 1):
-    print(f"🔄 Iteration {i+1}/{num_nodes - 1}")
+    print(f"Iteration {i+1}/{num_nodes - 1}")
 
     #join distances with adjacency list
     joined = distances.join(adj_list)
