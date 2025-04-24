@@ -40,9 +40,9 @@ Example:
 ```
 
 ## Run
-Ideally would like to have at least 32BG RAM and 4vCPUs
+Ideally would like to have at least 32GB of RAM and 4vCPUs
 ```bash
-spark-submit --driver-memory 16G --executor-memory 16G --conf spark.executor.cores=4 rddVersion.py
+spark-submit rddVersion.py
 ```
 
 ## Output
